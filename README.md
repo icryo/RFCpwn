@@ -5,7 +5,7 @@ An SAP enumeration and exploitation toolkit using SAP RFC calls
 This is a toolkit for demonstrating the impact of compromised service accounts.
 
 
-This is a PoC and not for use in production environments, no guarantee of stability or support.
+This PoC is not for use in production environments, no guarantee of stability or support.
 
 
 RFCpwn relies on the pyrfc and the libraries provided by SAP in: https://github.com/SAP/PyRFC#installation
