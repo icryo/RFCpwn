@@ -117,7 +117,6 @@ if __name__ == '__main__':
     user = options.user
     copy = options.copy
 
-
     try:
         if options.ping is True:
             try:
