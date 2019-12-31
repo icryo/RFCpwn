@@ -1,5 +1,5 @@
 ### RFCpwn
-An Impacket style enumeration and exploitation toolkit using SAP RFC calls
+An SAP enumeration and exploitation toolkit using SAP RFC calls
 
 RFCpwn relies on the pyrfc and the libraries provided by SAP in: https://github.com/SAP/PyRFC#installation
 ```shell
