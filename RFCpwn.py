@@ -4,8 +4,6 @@
 # PoC, do not use on production systems
 # There is no guarantee of stability or support
 #
-# Description: SAP RFC lateral movement tool.
-#
 # Author:
 #  Austin Marck (@icryo)
 #
