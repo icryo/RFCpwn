@@ -2,7 +2,6 @@
 An Impacket style enumeration and exploitation toolkit using SAP RFC calls
 
 RFCpwn relies on the pyrfc and the libraries provided by SAP in: https://github.com/SAP/PyRFC#installation
-python3 ./RFCpwn.py -h 
 ```shell
 usage: RFCpwnv2.py [-h] [-debug] [-ip IP] [-u Username] [-p Password]
                    [-c Client] [-s Sysid] [-ping] [-enum] [-usercopy]
