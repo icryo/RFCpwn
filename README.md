@@ -1,8 +1,7 @@
 # RFCpwn
 An SAP enumeration and exploitation toolkit using SAP RFC calls
 
-Not for use in production environments
-There is no guarantee of stability or support
+This is a PoC and not for use in production environments, no guarantee of stability or support.
 
 RFCpwn relies on the pyrfc and the libraries provided by SAP in: https://github.com/SAP/PyRFC#installation
 ```shell
