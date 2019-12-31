@@ -35,7 +35,7 @@ Hash Collection:
 ## Examples
 Ping
 ```shell
-python3 ./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass -ping
+./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass -ping
 ```
 Copy a users rights into a new dialog user. If -copy is not specified SAP* is used.
 ```shell
