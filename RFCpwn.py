@@ -17,7 +17,6 @@ import datetime
 import pyrfc
 from pyrfc import Connection
 
-
 def abapusercopy() :
     c = conn
     uname_from = copy
@@ -73,7 +72,6 @@ def dump():
         else:
             p=""
 
-
         print(name+":" + h)
         if options.exp is True:
             print(name +"BCODE: " + str(b))
@@ -109,7 +107,6 @@ if __name__ == '__main__':
     group = parser.add_argument_group('Hash Collection')
     group.add_argument('-dump', action="store_true", help='Dump hashes use with below', default=False)
     group.add_argument('-exp', action="store_true", help=' EXPERIMENTAL - Dump BCODE / PASSCODE hashes', default=False)
-
 
     if len(sys.argv) == 1:
         parser.print_help()
