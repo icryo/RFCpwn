@@ -52,3 +52,6 @@ Dump hashes from all users. option -exp for experimental bcode & passcode hashes
 ```shell
 ./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass -dump 
 ```
+
+![Imgur Image](https://i.imgur.com/gruaUrT.gif)
+
