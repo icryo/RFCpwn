@@ -33,7 +33,7 @@ Hash Collection:
   -exp         EXPERIMENTAL - Dump BCODE / PASSCODE hashes
   ```
 ## Examples
-Ping
+Ping - confirm connectivity
 ```shell
 ./RFCpwn.py -ip 192.168.200.253 -s 00 -c 000 -u RFCUser -p RFCPass -ping
 ```
