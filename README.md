@@ -10,7 +10,7 @@ This PoC is not for use in production environments, no guarantee of stability or
 
 RFCpwn relies on the pyrfc and the libraries provided by SAP in: https://github.com/SAP/PyRFC#installation
 ```shell
-usage: RFCpwnv2.py [-h] [-debug] [-ip IP] [-u Username] [-p Password]
+usage: RFCpwn.py [-h] [-debug] [-ip IP] [-u Username] [-p Password]
                    [-c Client] [-s Sysid] [-ping] [-enum] [-usercopy]
                    [-user USER] [-copy COPY] [-pw PW] [-dump] [-exp]
 
