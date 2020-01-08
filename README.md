@@ -1,6 +1,7 @@
 # RFCpwn
 An SAP enumeration and exploitation toolkit using SAP RFC calls
 
+Twitter: @icryo
 
 This is a toolkit for demonstrating the impact of compromised service accounts.
 
